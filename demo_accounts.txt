@@ -1,0 +1,101 @@
+Emergency 999 DBMS - Seeded User Accounts
+===========================================
+All accounts use password: password
+
+Name                           | Email                               | Role         | Password  
+-----------------------------------------------------------------------------------------------
+System Admin                   | admin@999.local                     | admin        | password  
+Sample Citizen                 | user@999.local                      | user         | password  
+Lt. Farhan Rahman              | responder@999.local                 | responder    | password  
+Sgt. Razia Sultana             | razia@999.local                     | responder    | password  
+Cpl. Nusrat Jahan              | nusrat@999.local                    | responder    | password  
+FF. Jabir Hossain              | jabir@999.local                     | responder    | password  
+Dr. Kamal Hossain              | kamal@999.local                     | responder    | password  
+Paramedic Shamim Akter         | shamim@999.local                    | responder    | password  
+SI Rafiq Islam                 | rafiq@999.local                     | responder    | password  
+ASI Tarek Mahmud               | tarek@999.local                     | responder    | password  
+Lt. Jamal Uddin                | jamal@999.local                     | responder    | password  
+Cpl. Anwar Haque               | anwar@999.local                     | responder    | password  
+SI Fatema Khatun               | fatema@999.local                    | responder    | password  
+Lt. Hasanul Bari               | hasan@999.local                     | responder    | password  
+Paramedic Nasrin Akter         | nasrin@999.local                    | responder    | password  
+Ayesha Begum                   | ayesha@999.local                    | user         | password  
+Rahim Mia                      | rahim@999.local                     | user         | password  
+Mizanur Rahman                 | mizan@999.local                     | user         | password  
+FF. Sajjad Hossein             | sajjad@999.local                    | responder    | password  
+FF. Arifur Rahman              | arif@999.local                      | responder    | password  
+Paramedic Tanveer Alam         | tanveer@999.local                   | responder    | password  
+Paramedic Sadia Islam          | sadia@999.local                     | responder    | password  
+Dr. Fahmida Yesmin             | fahmida@999.local                   | responder    | password  
+Dr. Mahbubur Rahman            | mahbub@999.local                    | responder    | password  
+Sgt. Imran Khan                | imran@999.local                     | responder    | password  
+ASI Shamima Yasmin             | shamimay@999.local                  | responder    | password  
+SI Tariqul Islam               | tariqul@999.local                   | responder    | password  
+ASI Rashedul Bari              | rashed@999.local                    | responder    | password  
+FF. Selim Rezwan               | selim@999.local                     | responder    | password  
+FF. Mainul Islam               | mainul@999.local                    | responder    | password  
+FF. Riaz Uddin                 | riaz@999.local                      | responder    | password  
+FF. Tariq Anam                 | tariqa@999.local                    | responder    | password  
+FF. Shakil Ahmed               | shakil@999.local                    | responder    | password  
+Lt. Nazmul Huda                | nazmul@999.local                    | responder    | password  
+Sgt. Mizanur Rahman            | mizanr@999.local                    | responder    | password  
+FF. Kabir Hossain              | kabir@999.local                     | responder    | password  
+FF. Shafiul Alam               | shafiul@999.local                   | responder    | password  
+FF. Rubel Mia                  | rubel@999.local                     | responder    | password  
+FF. Masud Rana                 | masud@999.local                     | responder    | password  
+Sgt. Biplob Kumar              | biplob@999.local                    | responder    | password  
+FF. Anisur Rahman              | anis@999.local                      | responder    | password  
+FF. Zahirul Islam              | zahir@999.local                     | responder    | password  
+FF. Didarul Alam               | didar@999.local                     | responder    | password  
+FF. Saiful Islam               | saiful@999.local                    | responder    | password  
+Dr. Nazma Begum                | nazma@999.local                     | responder    | password  
+Paramedic Liton Mia            | liton@999.local                     | responder    | password  
+Dr. Rubaiya Tasnim             | rubaiya@999.local                   | responder    | password  
+Paramedic Belal Hossain        | belal@999.local                     | responder    | password  
+Dr. Asif Iqbal                 | asifi@999.local                     | responder    | password  
+Paramedic Salma Khatun         | salmak@999.local                    | responder    | password  
+Dr. Shahriar Kabir             | shahriar@999.local                  | responder    | password  
+Paramedic Nigar Sultana        | nigar@999.local                     | responder    | password  
+Dr. Rashed Ahmed               | rasheda@999.local                   | responder    | password  
+Paramedic Jewel Rana           | jewel@999.local                     | responder    | password  
+Dr. Farzana Yasmin             | farzana@999.local                   | responder    | password  
+Dr. Munir Chowdhury            | munir@999.local                     | responder    | password  
+Paramedic Halima Sadia         | halima@999.local                    | responder    | password  
+Dr. Tareq Hasan                | tareqh@999.local                    | responder    | password  
+Paramedic Rafiqul Islam        | rafiquli@999.local                  | responder    | password  
+Dr. Sabiha Jahan               | sabiha@999.local                    | responder    | password  
+Paramedic Aminul Haque         | aminul@999.local                    | responder    | password  
+Dr. Tanvir Hasan               | tanvirh@999.local                   | responder    | password  
+Paramedic Shirin Akter         | shirina@999.local                   | responder    | password  
+Dr. Mahmudul Hasan             | mahmudul@999.local                  | responder    | password  
+Paramedic Alamgir Kabir        | alamgir@999.local                   | responder    | password  
+Dr. Rehana Sultana             | rehana@999.local                    | responder    | password  
+Paramedic Jahir Uddin          | jahiru@999.local                    | responder    | password  
+Sgt. Abu Bakar                 | abubakar@999.local                  | responder    | password  
+ASI Mukta Begum                | muktab@999.local                    | responder    | password  
+SI Delwar Hossain              | delwar@999.local                    | responder    | password  
+ASI Ripon Mia                  | riponm@999.local                    | responder    | password  
+SI Farhana Akter               | farhanaa@999.local                  | responder    | password  
+Sgt. Monirul Islam             | monirul@999.local                   | responder    | password  
+ASI Kaniz Fatima               | kanizf@999.local                    | responder    | password  
+SI Mahfuzur Rahman             | mahfuzr@999.local                   | responder    | password  
+ASI Sohel Rana                 | sohelr@999.local                    | responder    | password  
+SI Taslima Begum               | taslimab@999.local                  | responder    | password  
+SI Mominul Haque               | mominul@999.local                   | responder    | password  
+ASI Jesmin Ara                 | jesmin@999.local                    | responder    | password  
+Sgt. Ziaur Rahman              | ziaur@999.local                     | responder    | password  
+ASI Babul Mia                  | babul@999.local                     | responder    | password  
+SI Rokeya Begum                | rokeya@999.local                    | responder    | password  
+ASI Masum Billah               | masumb@999.local                    | responder    | password  
+Lt. Shafiqul Islam             | shafiqul@999.local                  | responder    | password  
+Sgt. Rubel Mia                 | rubelm@999.local                    | responder    | password  
+FF. Aminul Islam               | aminuli@999.local                   | responder    | password  
+FF. Habibur Rahman             | habibur@999.local                   | responder    | password  
+FF. Nazim Uddin                | nazim@999.local                     | responder    | password  
+FF. Murad Hossain              | murad@999.local                     | responder    | password  
+Lt. Tanvir Ahmed               | tanvira@999.local                   | responder    | password  
+Sgt. Lutfur Rahman             | lutfur@999.local                    | responder    | password  
+FF. Shakil Khan                | shakilk@999.local                   | responder    | password  
+FF. Mizanur Rahman             | mizanm@999.local                    | responder    | password  
+FF. Jamil Hasan                | jamil@999.local                     | responder    | password  
+FF. Sohel Rana                 | sohelra@999.local                   | responder    | password  
