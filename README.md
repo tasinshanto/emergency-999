@@ -111,4 +111,3 @@ All seeded credentials use the password: `password`
 *   [responder/index.php](file:///d:/Xampp/htdocs/emergency-999/responder/index.php) — Portal for field responders to view range limits, self-assign, and transition task statuses.
 
 
-For a comprehensive breakdown of every file, module, database feature, and API endpoint, see the **[📖 Codebase Guide](CODEBASE_GUIDE.md)**.
