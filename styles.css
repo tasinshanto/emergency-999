@@ -1,0 +1,348 @@
+:root {
+    --danger: #dc2626;
+    --ink: #0f172a;
+}
+
+body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.25rem;
+    border-radius: 0.375rem;
+    padding: 0.45rem 0.75rem;
+    color: #475569;
+    transition: background-color 150ms ease, color 150ms ease;
+}
+
+.nav-link:hover,
+.nav-active {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-danger,
+.btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    border-radius: 0.375rem;
+    padding: 0.55rem 0.9rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+}
+
+.btn-primary {
+    background: var(--danger);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #b91c1c;
+}
+
+.btn-secondary {
+    border: 1px solid #cbd5e1;
+    background: white;
+    color: #0f172a;
+}
+
+.btn-secondary:hover {
+    background: #f8fafc;
+}
+
+.btn-danger {
+    background: #be123c;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #9f1239;
+}
+
+.btn-ghost {
+    color: #475569;
+}
+
+.btn-ghost:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.field-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: #334155;
+}
+
+.field-input,
+.field-select,
+.field-textarea {
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.375rem;
+    background: white;
+    padding: 0.65rem 0.75rem;
+    font-size: 0.9rem;
+    color: #0f172a;
+    outline: none;
+}
+
+.field-select {
+    padding-right: 2.2rem;
+}
+
+.field-textarea {
+    min-height: 6.5rem;
+    resize: vertical;
+}
+
+.field-input:focus,
+.field-select:focus,
+.field-textarea:focus {
+    border-color: #dc2626;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.14);
+}
+
+.panel {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    background: white;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    background: white;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.data-table th {
+    background: #f8fafc;
+    color: #475569;
+    font-size: 0.75rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.data-table th,
+.data-table td {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0.85rem;
+    vertical-align: top;
+}
+
+.data-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    padding: 0.2rem 0.55rem;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.map-marker {
+    position: relative;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border: 3px solid white;
+    border-radius: 999px;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.28);
+}
+
+.map-marker::after {
+    content: "";
+    position: absolute;
+    inset: 0.45rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+}
+
+.resource-marker {
+    display: grid;
+    place-items: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 2px solid white;
+    border-radius: 0.375rem;
+    box-shadow: 0 6px 14px rgba(15, 23, 42, 0.22);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+/* ── Home page: map left, sidebar right ── */
+.public-shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 24rem;
+    min-height: 100vh;
+}
+
+.public-map-section {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.public-map {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.public-aside {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Allow flex children (the form) to shrink so overflow-y:auto works */
+.public-aside > * {
+    min-height: 0;
+}
+
+.dashboard-map {
+    height: 28rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+/* ── Responder-only Priority Markers ── */
+.map-marker-priority {
+    position: relative;
+    display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 3.5px solid white;
+    border-radius: 999px;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.30);
+    transition: transform 150ms ease;
+}
+
+.map-marker-priority:hover {
+    transform: scale(1.18);
+}
+
+.map-marker-priority.marker-dispatchable {
+    cursor: pointer;
+}
+
+.incident-marker-icon {
+    background: transparent;
+    border: 0;
+}
+
+.leaflet-popup-content .btn-self-dispatch:hover {
+    background: #b91c1c;
+}
+
+.priority-badge {
+    position: absolute;
+    top: -0.45rem;
+    right: -0.45rem;
+    display: grid;
+    place-items: center;
+    width: 1.15rem;
+    height: 1.15rem;
+    border-radius: 999px;
+    border: 2px solid white;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 2;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+/* Glowing ring for incidents assigned to this responder */
+.assigned-ring {
+    position: absolute;
+    inset: -5px;
+    border-radius: 999px;
+    border: 2.5px solid #f59e0b;
+    box-shadow: 0 0 10px 2px rgba(245, 158, 11, 0.45);
+    animation: assigned-glow 2s ease-in-out infinite;
+}
+
+@keyframes assigned-glow {
+    0%, 100% { box-shadow: 0 0 8px 2px rgba(245, 158, 11, 0.35); }
+    50%      { box-shadow: 0 0 16px 5px rgba(245, 158, 11, 0.65); }
+}
+
+/* Pulse animation for critical/high severity */
+.marker-pulse::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 999px;
+    background: inherit;
+    opacity: 0;
+    animation: marker-pulse-ring 1.8s ease-out infinite;
+    z-index: -1;
+}
+
+@keyframes marker-pulse-ring {
+    0%   { transform: scale(0.7); opacity: 0.55; }
+    100% { transform: scale(1.6); opacity: 0; }
+}
+
+@media (max-width: 920px) {
+    .public-shell {
+        grid-template-columns: 1fr;
+    }
+
+    .public-map {
+        height: 55vh;
+    }
+
+    .public-map-section {
+        position: relative;
+        height: 55vh;
+    }
+
+    .public-aside {
+        height: auto;
+        overflow: visible;
+    }
+}
+
+/* Ensure Leaflet zoom buttons are always visible above overlays */
+.leaflet-bottom.leaflet-right {
+    z-index: 1000;
+}
+
+/* Details/Summary dispatch form: rotate chevron when open */
+details[open] summary .dispatch-chevron,
+details[open] > summary svg {
+    transform: rotate(90deg);
+}
+
+/* Remove default browser triangle from summary */
+summary::-webkit-details-marker { display: none; }
+summary::marker { display: none; }
